@@ -222,7 +222,7 @@ You can send pull requests [here](https://github.com/Abdur-rahmaanJ/python-engin
 | [The Inside Story On New-Style Classes](https://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html) | Guido Van Rossum |  |
 | [New-Style Classes](https://python-history.blogspot.com/2010/06/new-style-classes.html) | Guido Van Rossum |  |
 | [Metaclasses And Extension Classes (A.K.A. “The Killer Joke”)](https://python-history.blogspot.com/2009/04/metaclasses-and-extension-classes-aka.html) | Guido Van Rossum |  |
-| [And The Snake Attacks](https://python-history.blogspot.com/2009/04/and-snake-attacks.html) | Greg Erwin |  |
+| [And The Snake Attacks](https://python-history.blogspot.com/2009/04/and-snake-attacks.html) | Greg Ewing |  |
 | [Origins Of Python'S "Functional" Features](https://python-history.blogspot.com/2009/04/origins-of-pythons-functional-features.html) | Guido Van Rossum |  |
 | [The Great (Or Grand) Renaming](https://python-history.blogspot.com/2009/03/great-or-grand-renaming.html) | Guido Van Rossum |  |
 | [Dynamically Loaded Modules](https://python-history.blogspot.com/2009/03/dynamically-loaded-modules.html) | Guido Van Rossum |  |
@@ -233,7 +233,7 @@ You can send pull requests [here](https://github.com/Abdur-rahmaanJ/python-engin
 | [Adding Support For User-Defined Classes](https://python-history.blogspot.com/2009/02/adding-support-for-user-defined-classes.html) | Guido Van Rossum |  |
 | [Python'S Use Of Dynamic Typing](https://python-history.blogspot.com/2009/02/pythons-use-of-dynamic-typing.html) | Guido Van Rossum |  |
 | [Early Language Design And Development](https://python-history.blogspot.com/2009/02/early-language-design-and-development.html) | Guido Van Rossum |  |
-| [Microsoft Ships Python Code... In 1996](https://python-history.blogspot.com/2009/01/microsoft-ships-python-code-in-1996.html) | Greg Erwin |  |
+| [Microsoft Ships Python Code... In 1996](https://python-history.blogspot.com/2009/01/microsoft-ships-python-code-in-1996.html) | Greg Ewing |  |
 | [Personal History - Part 2, Cnri And Beyond](https://python-history.blogspot.com/2009/01/personal-history-part-2-cnri-and-beyond.html) | Guido Van Rossum |  |
 | [Personal History - Part 1, Cwi](https://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html) | Guido Van Rossum |  |
 | [A Brief Timeline Of Python](https://python-history.blogspot.com/2009/01/brief-timeline-of-python.html) | Guido Van Rossum |  |

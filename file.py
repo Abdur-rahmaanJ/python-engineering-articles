@@ -887,7 +887,7 @@ for topic in data:
     for i, article in enumerate(data[topic]):
         assert len(data[topic][i]) == 4, f'{data[topic]} - {i} not equal to 4'
         title = data[topic][i][0].title()
-        link = data[topic][i][1].title()
+        link = data[topic][i][1]
         author = data[topic][i][2].title()
         notes = data[topic][i][3]
         print(f'| [{title}]({link}) | {author} | {notes} |')

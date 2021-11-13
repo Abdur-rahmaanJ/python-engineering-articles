@@ -7,233 +7,234 @@ Though not necessarily read one after the other, the order is nevertheless not r
 For example, knowledge of CPython internals specially bytecodes are necessary to make sense of B. Cannon's 
 unravelling series. 
 The articles are focused on core Python and it's as advanced as articles can get.
+You can send pull requests [here](https://github.com/Abdur-rahmaanJ/python-engineering-articles)
 
 
 ## Encoding
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Unicode Book](Https://Unicodebook.Readthedocs.Io/) | Victor Stinner | Also discusses Python handling |
+| [Unicode Book](https://unicodebook.readthedocs.io/) | Victor Stinner | Also discusses Python handling |
 
 ## Maths
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Math Symbols Explained With Python](Https://Amitness.Com/2019/08/Math-For-Programmers/) | Amit Chaudhary |  |
-| [Foundations Of Applied Mathematics](Https://Foundations-Of-Applied-Mathematics.Github.Io/) | Profs And Students At Different Universities | A series of four textbooks developed for Brigham Young University’s Applied and Computational Mathematics degree program for beginning graduate and advanced undergraduate students. Uses Python for concepts |
+| [Math Symbols Explained With Python](https://amitness.com/2019/08/math-for-programmers/) | Amit Chaudhary |  |
+| [Foundations Of Applied Mathematics](https://foundations-of-applied-mathematics.github.io/) | Profs And Students At Different Universities | A series of four textbooks developed for Brigham Young University’s Applied and Computational Mathematics degree program for beginning graduate and advanced undergraduate students. Uses Python for concepts |
 
 ## Compiler Theory
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Building Finite State Machines With Python Coroutines](Https://Arpitbhayani.Me/Blogs/Fsm) | Arpit Bhayani |  |
-| [Writing A Python To C Compiler In Python](Https://Notes.Eatonphil.Com/Writing-A-Simple-Python-Compiler.Html) | Phil Eaton |  |
-| [Writing A Jinja-Inspired Template Library In Python](Https://Notes.Eatonphil.Com/Writing-A-Template-Library-In-Python.Html) | Phil Eaton |  |
-| [Writing A Simple Json Parser](Https://Notes.Eatonphil.Com/Writing-A-Simple-Json-Parser.Html) | Phil Eaton |  |
+| [Building Finite State Machines With Python Coroutines](https://arpitbhayani.me/blogs/fsm) | Arpit Bhayani |  |
+| [Writing A Python To C Compiler In Python](https://notes.eatonphil.com/writing-a-simple-python-compiler.html) | Phil Eaton |  |
+| [Writing A Jinja-Inspired Template Library In Python](https://notes.eatonphil.com/writing-a-template-library-in-python.html) | Phil Eaton |  |
+| [Writing A Simple Json Parser](https://notes.eatonphil.com/writing-a-simple-json-parser.html) | Phil Eaton |  |
 
 ## CPython Internals
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Your Guide To The Cpython Source Code](Https://Realpython.Com/Cpython-Source-Code-Guide/) | Anthony Shaw |  |
-| [Internals Of Cpython 3.6](Https://Intopythoncom.Files.Wordpress.Com/2017/04/Internalsofcpython3-6-1.Pdf) | Prashanth Raghu |  |
-| [Advanced Internals Of Cpython 3.6](Https://Intopythoncom.Files.Wordpress.Com/2017/04/Merged.Pdf) | Prashanth Raghu |  |
-| [Python Development Documentation](Https://Pythondev.Readthedocs.Io/) | Victor Stinner |  |
-| [Lifecycle Of A Python Code - Cpython’S Execution Model](Https://Dev.To/Btaskaya/Lifecycle-Of-A-Python-Code---Cpythons-Execution-Model-85I) | Batuhan Osman Taşkaya |  |
-| [A Python Interpreter Written In Pythonn](Http://Aosabook.Org/En/500L/A-Python-Interpreter-Written-In-Python.Html) | Allison Kaptur | Introduction to Python bytecode |
-| [Notes About A Web Assembly Backend](Https://Snarky.Ca/What-Is-The-Core-Of-The-Python-Programming-Language/) | Brett Cannon |  |
-| [Summary Of Sam Gross' Nogil Proposal](Https://Lukasz.Langa.Pl/5D044F91-49C1-4170-Aed1-62B6763E6Ad0/) | Łukasz Langa |  |
-| [Python C Api: Add Functions To Access Pyobject](Https://Vstinner.Github.Io/C-Api-Abstract-Pyobject.Html) | Victor Stinner |  |
-| [C Api Changes Between Python 3.5 To 3.10](Https://Vstinner.Github.Io/C-Api-Python3_10-Changes.Html) | Victor Stinner |  |
-| [Creation Of The Pythoncapi_Compat Project](Https://Vstinner.Github.Io/Pythoncapi_Compat.Html) | Victor Stinner |  |
-| [Make Structures Opaque In The Python C Api](Https://Vstinner.Github.Io/C-Api-Opaque-Structures.Html) | Victor Stinner |  |
-| [Isolate Python Subinterpreters](Https://Vstinner.Github.Io/Hide-Implementation-Details-Python-C-Api.Html) | Victor Stinner |  |
-| [Hide Implementation Details From The Python C Api](Https://Vstinner.Github.Io/Isolate-Subinterpreters.Html) | Victor Stinner |  |
-| [Leaks Discovered By Subinterpreters](Https://Vstinner.Github.Io/Subinterpreter-Leaks.Html) | Victor Stinner |  |
-| [Gil Bugfixes For Daemon Threads In Python 3.9](Https://Vstinner.Github.Io/Gil-Bugfixes-Daemon-Threads-Python39.Html) | Victor Stinner |  |
-| [Threading Shutdown Race Condition](Https://Vstinner.Github.Io/Threading-Shutdown-Race-Condition.Html) | Victor Stinner |  |
-| [Threading Shutdown Race Condition](Https://Vstinner.Github.Io/Threading-Shutdown-Race-Condition.Html) | Victor Stinner |  |
-| [Pass The Python Thread State Explicitly](Https://Vstinner.Github.Io/Index2.Html) | Victor Stinner |  |
-| [Asyncio Wsasend() Memory Leak](Https://Vstinner.Github.Io/Asyncio-Proactor-Wsasend-Memory-Leak.Html) | Victor Stinner |  |
-| [Asyncio: Wsarecv() Cancellation Causing Data Loss](Https://Vstinner.Github.Io/Asyncio-Proactor-Wsarecv-Cancellation-Data-Loss.Html) | Victor Stinner |  |
-| [Asyncio: Proactor Connectpipe() Race Condition](Https://Vstinner.Github.Io/Asyncio-Proactor-Connect-Pipe-Race-Condition.Html) | Victor Stinner |  |
-| [Asyncio: Proactor Cancellation From Hell](Https://Vstinner.Github.Io/Asyncio-Proactor-Cancellation-From-Hell.Html) | Victor Stinner |  |
-| [How I Fixed A Very Old Gil Race Condition In Python 3.7](Https://Vstinner.Github.Io/Python37-Gil-Change.Html) | Victor Stinner |  |
-| [History Of The Python Private C Api _Pytime](Https://Vstinner.Github.Io/Pytime.Html) | Victor Stinner |  |
+| [Your Guide To The Cpython Source Code](https://realpython.com/cpython-source-code-guide/) | Anthony Shaw |  |
+| [Internals Of Cpython 3.6](https://intopythoncom.files.wordpress.com/2017/04/internalsofcpython3-6-1.pdf) | Prashanth Raghu |  |
+| [Advanced Internals Of Cpython 3.6](https://intopythoncom.files.wordpress.com/2017/04/merged.pdf) | Prashanth Raghu |  |
+| [Python Development Documentation](https://pythondev.readthedocs.io/) | Victor Stinner |  |
+| [Lifecycle Of A Python Code - Cpython’S Execution Model](https://dev.to/btaskaya/lifecycle-of-a-python-code---cpythons-execution-model-85i) | Batuhan Osman Taşkaya |  |
+| [A Python Interpreter Written In Pythonn](http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html) | Allison Kaptur | Introduction to Python bytecode |
+| [Notes About A Web Assembly Backend](https://snarky.ca/what-is-the-core-of-the-python-programming-language/) | Brett Cannon |  |
+| [Summary Of Sam Gross' Nogil Proposal](https://lukasz.langa.pl/5d044f91-49c1-4170-aed1-62b6763e6ad0/) | Łukasz Langa |  |
+| [Python C Api: Add Functions To Access Pyobject](https://vstinner.github.io/c-api-abstract-pyobject.html) | Victor Stinner |  |
+| [C Api Changes Between Python 3.5 To 3.10](https://vstinner.github.io/c-api-python3_10-changes.html) | Victor Stinner |  |
+| [Creation Of The Pythoncapi_Compat Project](https://vstinner.github.io/pythoncapi_compat.html) | Victor Stinner |  |
+| [Make Structures Opaque In The Python C Api](https://vstinner.github.io/c-api-opaque-structures.html) | Victor Stinner |  |
+| [Isolate Python Subinterpreters](https://vstinner.github.io/hide-implementation-details-python-c-api.html) | Victor Stinner |  |
+| [Hide Implementation Details From The Python C Api](https://vstinner.github.io/isolate-subinterpreters.html) | Victor Stinner |  |
+| [Leaks Discovered By Subinterpreters](https://vstinner.github.io/subinterpreter-leaks.html) | Victor Stinner |  |
+| [Gil Bugfixes For Daemon Threads In Python 3.9](https://vstinner.github.io/gil-bugfixes-daemon-threads-python39.html) | Victor Stinner |  |
+| [Threading Shutdown Race Condition](https://vstinner.github.io/threading-shutdown-race-condition.html) | Victor Stinner |  |
+| [Threading Shutdown Race Condition](https://vstinner.github.io/threading-shutdown-race-condition.html) | Victor Stinner |  |
+| [Pass The Python Thread State Explicitly](https://vstinner.github.io/index2.html) | Victor Stinner |  |
+| [Asyncio Wsasend() Memory Leak](https://vstinner.github.io/asyncio-proactor-wsasend-memory-leak.html) | Victor Stinner |  |
+| [Asyncio: Wsarecv() Cancellation Causing Data Loss](https://vstinner.github.io/asyncio-proactor-wsarecv-cancellation-data-loss.html) | Victor Stinner |  |
+| [Asyncio: Proactor Connectpipe() Race Condition](https://vstinner.github.io/asyncio-proactor-connect-pipe-race-condition.html) | Victor Stinner |  |
+| [Asyncio: Proactor Cancellation From Hell](https://vstinner.github.io/asyncio-proactor-cancellation-from-hell.html) | Victor Stinner |  |
+| [How I Fixed A Very Old Gil Race Condition In Python 3.7](https://vstinner.github.io/python37-gil-change.html) | Victor Stinner |  |
+| [History Of The Python Private C Api _Pytime](https://vstinner.github.io/pytime.html) | Victor Stinner |  |
 
 ## Insider Bits
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Constant Folding In Python](Https://Arpitbhayani.Me/Blogs/Constant-Folding-Python) | Arpit Bhayani |  |
-| [Integer Caching In Python](Https://Arpitbhayani.Me/Blogs/Python-Caches-Integers) | Arpit Bhayani |  |
-| [Super Long Integers In Python](Https://Arpitbhayani.Me/Blogs/Super-Long-Integers) | Arpit Bhayani |  |
-| [Unravelling Decorators](Https://Snarky.Ca/Unravelling-Decorators/) | Brett Cannon |  |
-| [Unravelling Data Structure Displays](Https://Snarky.Ca/Unravelling-Data-Structure-Displays/) | Brett Cannon |  |
-| [(Not) Unravelling Generator Expressions](Https://Snarky.Ca/Not-Unravelling-Generator-Expressions/) | Brett Cannon |  |
-| [Unravelling The `Async With` Statement](Https://Snarky.Ca/Unravelling-The-Async-With-Statement/) | Brett Cannon |  |
-| [Unravelling `Async For` Loops](Https://Snarky.Ca/Unravelling-Async-For-Loops/) | Brett Cannon |  |
-| [Unravelling `Async` And `Await`](Https://Snarky.Ca/Unravelling-Async-And-Await/) | Brett Cannon |  |
-| [Unravelling The `With` Statement](Https://Snarky.Ca/Unravelling-The-With-Statement/) | Brett Cannon |  |
-| [Unravelling The `Pass` Statement](Https://Snarky.Ca/Unravelling-The-Pass-Statement/) | Brett Cannon |  |
-| [Unravelling `For` Statements](Https://Snarky.Ca/Unravelling-For-Statements/) | Brett Cannon |  |
-| [Unravelling Assertions](Https://Snarky.Ca/Unravelling-Assertions/) | Brett Cannon |  |
-| [Unravelling The Import Statement](Https://Snarky.Ca/Unravelling-The-Import-Statement/) | Brett Cannon |  |
-| [Unravelling Boolean Operations](Https://Snarky.Ca/Unravelling-Boolean-Operations/) | Brett Cannon |  |
-| [Unravelling Membership Testing](Https://Snarky.Ca/Unravelling-Membership-Testing/) | Brett Cannon |  |
-| [Unravelling `Not` In Python](Https://Snarky.Ca/Unravelling-Not-In-Python/) | Brett Cannon |  |
-| [Unravelling `Is` And `Is Not`](Https://Snarky.Ca/Unravelling-Is-And-Is-Not/) | Brett Cannon |  |
-| [Unravelling Rich Comparison Operators](Https://Snarky.Ca/Unravelling-Rich-Comparison-Operators/) | Brett Cannon |  |
-| [Unravelling Unary Arithmetic Operators](Https://Snarky.Ca/Unravelling-Unary-Arithmetic-Operators/) | Brett Cannon |  |
-| [Unravelling Augmented Arithmetic Assignment](Https://Snarky.Ca/Unravelling-Augmented-Arithmetic-Assignment/) | Brett Cannon |  |
-| [Unravelling Binary Arithmetic Operations In Python](Https://Snarky.Ca/Unravelling-Binary-Arithmetic-Operations-In-Python/) | Brett Cannon |  |
-| [Unravelling Attribute Access In Python](Https://Snarky.Ca/Unravelling-Attribute-Access-In-Python/) | Brett Cannon |  |
-| [How The Heck Does Async/Await Work In Python 3.5?](Https://Snarky.Ca/How-The-Heck-Does-Async-Await-Work-In-Python-3-5/) | Brett Cannon |  |
+| [Constant Folding In Python](https://arpitbhayani.me/blogs/constant-folding-python) | Arpit Bhayani |  |
+| [Integer Caching In Python](https://arpitbhayani.me/blogs/python-caches-integers) | Arpit Bhayani |  |
+| [Super Long Integers In Python](https://arpitbhayani.me/blogs/super-long-integers) | Arpit Bhayani |  |
+| [Unravelling Decorators](https://snarky.ca/unravelling-decorators/) | Brett Cannon |  |
+| [Unravelling Data Structure Displays](https://snarky.ca/unravelling-data-structure-displays/) | Brett Cannon |  |
+| [(Not) Unravelling Generator Expressions](https://snarky.ca/not-unravelling-generator-expressions/) | Brett Cannon |  |
+| [Unravelling The `Async With` Statement](https://snarky.ca/unravelling-the-async-with-statement/) | Brett Cannon |  |
+| [Unravelling `Async For` Loops](https://snarky.ca/unravelling-async-for-loops/) | Brett Cannon |  |
+| [Unravelling `Async` And `Await`](https://snarky.ca/unravelling-async-and-await/) | Brett Cannon |  |
+| [Unravelling The `With` Statement](https://snarky.ca/unravelling-the-with-statement/) | Brett Cannon |  |
+| [Unravelling The `Pass` Statement](https://snarky.ca/unravelling-the-pass-statement/) | Brett Cannon |  |
+| [Unravelling `For` Statements](https://snarky.ca/unravelling-for-statements/) | Brett Cannon |  |
+| [Unravelling Assertions](https://snarky.ca/unravelling-assertions/) | Brett Cannon |  |
+| [Unravelling The Import Statement](https://snarky.ca/unravelling-the-import-statement/) | Brett Cannon |  |
+| [Unravelling Boolean Operations](https://snarky.ca/unravelling-boolean-operations/) | Brett Cannon |  |
+| [Unravelling Membership Testing](https://snarky.ca/unravelling-membership-testing/) | Brett Cannon |  |
+| [Unravelling `Not` In Python](https://snarky.ca/unravelling-not-in-python/) | Brett Cannon |  |
+| [Unravelling `Is` And `Is Not`](https://snarky.ca/unravelling-is-and-is-not/) | Brett Cannon |  |
+| [Unravelling Rich Comparison Operators](https://snarky.ca/unravelling-rich-comparison-operators/) | Brett Cannon |  |
+| [Unravelling Unary Arithmetic Operators](https://snarky.ca/unravelling-unary-arithmetic-operators/) | Brett Cannon |  |
+| [Unravelling Augmented Arithmetic Assignment](https://snarky.ca/unravelling-augmented-arithmetic-assignment/) | Brett Cannon |  |
+| [Unravelling Binary Arithmetic Operations In Python](https://snarky.ca/unravelling-binary-arithmetic-operations-in-python/) | Brett Cannon |  |
+| [Unravelling Attribute Access In Python](https://snarky.ca/unravelling-attribute-access-in-python/) | Brett Cannon |  |
+| [How The Heck Does Async/Await Work In Python 3.5?](https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/) | Brett Cannon |  |
 
 ## Sane Bits
 
 | To Read | Author | Notes |
 |-|-|-|
-| [An Approach To Lazy Importing In Python 3.7](Https://Snarky.Ca/Lazy-Importing-In-Python-3-7/) | Brett Cannon |  |
-| [Customizing Class Creation In Python](Https://Snarky.Ca/Customizing-Class-Creation-In-Python/) | Brett Cannon |  |
-| [Why Pathlib.Path Doesn'T Inherit From Str In Python](Https://Snarky.Ca/Why-Pathlib-Path-Doesn-T-Inherit-From-Str/) | Brett Cannon |  |
-| [Why Python3?](Https://Snarky.Ca/How-To-Pitch-Python-3-To-Management/) | Brett Cannon |  |
-| [Why `Print` Became A Function In Python 3](Https://Snarky.Ca/Why-Print-Became-A-Function-In-Python-3/) | Brett Cannon |  |
-| [If I Were Designing Python'S Import From Scratch](Https://Snarky.Ca/If-I-Were-Designing-Imort-From-Scratch/) | Brett Cannon |  |
-| [Try To Not Use The Python C Api Directly](Https://Snarky.Ca/Try-To-Not-Use-The-C-Api-Directly/) | Brett Cannon |  |
-| [Lambdas As A Solution For Puzzles](Https://Blog.Astrosnail.Pt.Eu.Org/2021-02-11-Snake.Html) |  |  |
+| [An Approach To Lazy Importing In Python 3.7](https://snarky.ca/lazy-importing-in-python-3-7/) | Brett Cannon |  |
+| [Customizing Class Creation In Python](https://snarky.ca/customizing-class-creation-in-python/) | Brett Cannon |  |
+| [Why Pathlib.Path Doesn'T Inherit From Str In Python](https://snarky.ca/why-pathlib-path-doesn-t-inherit-from-str/) | Brett Cannon |  |
+| [Why Python3?](https://snarky.ca/how-to-pitch-python-3-to-management/) | Brett Cannon |  |
+| [Why `Print` Became A Function In Python 3](https://snarky.ca/why-print-became-a-function-in-python-3/) | Brett Cannon |  |
+| [If I Were Designing Python'S Import From Scratch](https://snarky.ca/if-i-were-designing-imort-from-scratch/) | Brett Cannon |  |
+| [Try To Not Use The Python C Api Directly](https://snarky.ca/try-to-not-use-the-c-api-directly/) | Brett Cannon |  |
+| [Lambdas As A Solution For Puzzles](https://blog.astrosnail.pt.eu.org/2021-02-11-snake.html) |  |  |
 
 ## Performance
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Python Performance: It’S Not Just The Interpreter](Https://Blog.Kevmod.Com/2020/05/Python-Performance-Its-Not-Just-The-Interpreter/) | Kevin Modzelewski | Worked on the Pyston project |
-| [Accelerate Numpy Using Tensorflow](Https://Blog.Kevmod.Com/2017/06/Update-On-Numpy-Acceleration/) | Kevin Modzelewski |  |
-| [Clinging To Memory: How Python Function Calls Can Increase Memory Use](Https://Pythonspeed.Com/Articles/Function-Calls-Prevent-Garbage-Collection/) | Itamar Turner-Trauring |  |
-| [Where’S Your Bottleneck? Cpu Time Vs Wallclock Time](Https://Pythonspeed.Com/Articles/Blocking-Cpu-Or-Io/) | Itamar Turner-Trauring |  |
-| [Beyond Cprofile: Choosing The Right Tool For Performance Optimization](Https://Pythonspeed.Com/Articles/Beyond-Cprofile/) | Itamar Turner-Trauring |  |
-| [Not Just Cpu: Writing Custom Profilers For Python](Https://Pythonspeed.Com/Articles/Custom-Python-Profiler/) | Itamar Turner-Trauring |  |
-| [Ci For Performance: Reliable Benchmarking In Noisy Environments](Https://Pythonspeed.Com/Articles/Consistent-Benchmarking-In-Ci/) | Itamar Turner-Trauring |  |
-| [Why Your Multiprocessing Pool Is Stuck (It’S Full Of Sharks!)](Https://Pythonspeed.Com/Articles/Python-Multiprocessing/) | Itamar Turner-Trauring |  |
-| [The Parallelism Blues: When Faster Code Is Slower](Https://Pythonspeed.Com/Articles/Parallelism-Slower/) | Itamar Turner-Trauring |  |
-| [The Hidden Performance Overhead Of Python C Extensions](Https://Pythonspeed.Com/Articles/Python-Extension-Performance/) | Itamar Turner-Trauring |  |
-| [Analysis Of A Python Performance Issue](Https://Vstinner.Github.Io/Analysis-Python-Performance-Issue.Html) | Victor Stinner | Using the CPython benchmark suite |
+| [Python Performance: It’S Not Just The Interpreter](https://blog.kevmod.com/2020/05/python-performance-its-not-just-the-interpreter/) | Kevin Modzelewski | Worked on the Pyston project |
+| [Accelerate Numpy Using Tensorflow](https://blog.kevmod.com/2017/06/update-on-numpy-acceleration/) | Kevin Modzelewski |  |
+| [Clinging To Memory: How Python Function Calls Can Increase Memory Use](https://pythonspeed.com/articles/function-calls-prevent-garbage-collection/) | Itamar Turner-Trauring |  |
+| [Where’S Your Bottleneck? Cpu Time Vs Wallclock Time](https://pythonspeed.com/articles/blocking-cpu-or-io/) | Itamar Turner-Trauring |  |
+| [Beyond Cprofile: Choosing The Right Tool For Performance Optimization](https://pythonspeed.com/articles/beyond-cprofile/) | Itamar Turner-Trauring |  |
+| [Not Just Cpu: Writing Custom Profilers For Python](https://pythonspeed.com/articles/custom-python-profiler/) | Itamar Turner-Trauring |  |
+| [Ci For Performance: Reliable Benchmarking In Noisy Environments](https://pythonspeed.com/articles/consistent-benchmarking-in-ci/) | Itamar Turner-Trauring |  |
+| [Why Your Multiprocessing Pool Is Stuck (It’S Full Of Sharks!)](https://pythonspeed.com/articles/python-multiprocessing/) | Itamar Turner-Trauring |  |
+| [The Parallelism Blues: When Faster Code Is Slower](https://pythonspeed.com/articles/parallelism-slower/) | Itamar Turner-Trauring |  |
+| [The Hidden Performance Overhead Of Python C Extensions](https://pythonspeed.com/articles/python-extension-performance/) | Itamar Turner-Trauring |  |
+| [Analysis Of A Python Performance Issue](https://vstinner.github.io/analysis-python-performance-issue.html) | Victor Stinner | Using the CPython benchmark suite |
 
 ## Tests
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Fast Tests For Slow Services: Why You Should Use Verified Fakes](Https://Pythonspeed.Com/Articles/Verified-Fakes/) | Itamar Turner-Trauring |  |
-| [How To Use Your Project & Travis To Help Test Python Itself](Https://Snarky.Ca/How-To-Use-Your-Project-Travis-To-Help-Test-Python-Itself/) | Brett Cannon | Also how to test your project against future Python releases |
-| [Why You Should Document Your Tests](Https://Snarky.Ca/How-To-Use-Your-Project-Travis-To-Help-Test-Python-Itself/) | Hynek Schlawack |  |
+| [Fast Tests For Slow Services: Why You Should Use Verified Fakes](https://pythonspeed.com/articles/verified-fakes/) | Itamar Turner-Trauring |  |
+| [How To Use Your Project & Travis To Help Test Python Itself](https://snarky.ca/how-to-use-your-project-travis-to-help-test-python-itself/) | Brett Cannon | Also how to test your project against future Python releases |
+| [Why You Should Document Your Tests](https://snarky.ca/how-to-use-your-project-travis-to-help-test-python-itself/) | Hynek Schlawack |  |
 
 ## Debugging
 
 | To Read | Author | Notes |
 |-|-|-|
-| [When C Extensions Crash: Easier Debugging For Your Python Application](Https://Pythonspeed.Com/Articles/Python-C-Extension-Crashes/) | Itamar Turner-Trauring |  |
+| [When C Extensions Crash: Easier Debugging For Your Python Application](https://pythonspeed.com/articles/python-c-extension-crashes/) | Itamar Turner-Trauring |  |
 
 ## Zen of Python
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Zen Of Python, Again](Https://Lukasz.Langa.Pl/B6888F38-2E14-4595-A4Fe-187Fd0557A55/) | Łukasz Langa |  |
+| [Zen Of Python, Again](https://lukasz.langa.pl/b6888f38-2e14-4595-a4fe-187fd0557a55/) | Łukasz Langa |  |
 
 ## Patterns
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Typeclasses In Python](Https://Sobolevn.Me/2021/06/Typeclasses-In-Python) | Nikita Sobolev |  |
-| [Typed Functional Dependency Injection In Python](Https://Sobolevn.Me/2020/02/Typed-Functional-Dependency-Injection) | Nikita Sobolev |  |
-| [When Python Exceptions Are Considered As Anti-Pattern](Https://Sobolevn.Me/2019/02/Python-Exceptions-Considered-An-Antipattern) | Nikita Sobolev |  |
-| [What’S A Pragmatic Approach To Subclassing In Python?](Https://Sobolevn.Me/2019/02/Python-Exceptions-Considered-An-Antipattern) | Hynek Schlawack |  |
+| [Typeclasses In Python](https://sobolevn.me/2021/06/typeclasses-in-python) | Nikita Sobolev |  |
+| [Typed Functional Dependency Injection In Python](https://sobolevn.me/2020/02/typed-functional-dependency-injection) | Nikita Sobolev |  |
+| [When Python Exceptions Are Considered As Anti-Pattern](https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern) | Nikita Sobolev |  |
+| [What’S A Pragmatic Approach To Subclassing In Python?](https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern) | Hynek Schlawack |  |
 
 ## Typing
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Simple Dependent Types In Python](Https://Sobolevn.Me/2019/01/Simple-Dependent-Types-In-Python) | Nikita Sobolev |  |
+| [Simple Dependent Types In Python](https://sobolevn.me/2019/01/simple-dependent-types-in-python) | Nikita Sobolev |  |
 
 ## Packaging
 
 | To Read | Author | Notes |
 |-|-|-|
-| [What The Heck Is Pyproject.Toml?](Https://Snarky.Ca/What-The-Heck-Is-Pyproject-Toml/) | Brett Cannon |  |
-| [Deconstructing Xkcd.Com/1987/](Https://Snarky.Ca/Deconstructing-Xkcd-Com-1987/) | Brett Cannon |  |
-| [The Challenges In Designing A Library For Pep 425 (Aka Wheel Tags)/](Https://Snarky.Ca/The-Challenges-In-Designing-A-Library-For-Pep-425/) | Brett Cannon |  |
+| [What The Heck Is Pyproject.Toml?](https://snarky.ca/what-the-heck-is-pyproject-toml/) | Brett Cannon |  |
+| [Deconstructing Xkcd.Com/1987/](https://snarky.ca/deconstructing-xkcd-com-1987/) | Brett Cannon |  |
+| [The Challenges In Designing A Library For Pep 425 (Aka Wheel Tags)/](https://snarky.ca/the-challenges-in-designing-a-library-for-pep-425/) | Brett Cannon |  |
 
 ## Concurrency And Parallelism
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Ways Of Waiting In Asyncio](Https://Hynek.Me/Articles/Waiting-In-Asyncio/) | Hynek Schlawack |  |
-| [Designing An Async Api, From Sans-I/O On Up](Https://Snarky.Ca/Designing-An-Async-Api-From-Sans-I-O-On-Up/) | Brett Cannon |  |
-| [The Returns Package For Async](Https://Sobolevn.Me/2020/06/How-Async-Should-Have-Been) | Nikita Sobolev |  |
-| [Dead Simple Connection Pooling With Twisted](Https://Hynek.Me/Articles/Dead-Simple-Connection-Pooling-With-Twisted/) | Hynek Schlawack |  |
+| [Ways Of Waiting In Asyncio](https://hynek.me/articles/waiting-in-asyncio/) | Hynek Schlawack |  |
+| [Designing An Async Api, From Sans-I/O On Up](https://snarky.ca/designing-an-async-api-from-sans-i-o-on-up/) | Brett Cannon |  |
+| [The Returns Package For Async](https://sobolevn.me/2020/06/how-async-should-have-been) | Nikita Sobolev |  |
+| [Dead Simple Connection Pooling With Twisted](https://hynek.me/articles/dead-simple-connection-pooling-with-twisted/) | Hynek Schlawack |  |
 
 ## Task Queues
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Stepping Stone Article For Redis And Celery](Https://Ljvmiranda921.Github.Io/Notebook/2019/11/08/Flask-Redis-Celery-Mcdo/) | Lj Miranda |  |
+| [Stepping Stone Article For Redis And Celery](https://ljvmiranda921.github.io/notebook/2019/11/08/flask-redis-celery-mcdo/) | Lj Miranda |  |
 
 ## Supply Chain
 
 | To Read | Author | Notes |
 |-|-|-|
-| [How Do You Verify That Pypi Can Be Trusted?](Https://Snarky.Ca/How-Do-You-Verify-Pypi-Can-Be-Trusted/) | Brett Cannon |  |
+| [How Do You Verify That Pypi Can Be Trusted?](https://snarky.ca/how-do-you-verify-pypi-can-be-trusted/) | Brett Cannon |  |
 
 ## DevOps
 
 | To Read | Author | Notes |
 |-|-|-|
-| [The History Behind The Decision To Move Python To Github](Https://Snarky.Ca/The-History-Behind-The-Decision-To-Move-Python-To-Github/) | Brett Cannon |  |
-| [Python Deployment Anti-Patterns](Https://Hynek.Me/Articles/Python-Deployment-Anti-Patterns/) | Hynek Schlawack |  |
+| [The History Behind The Decision To Move Python To Github](https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/) | Brett Cannon |  |
+| [Python Deployment Anti-Patterns](https://hynek.me/articles/python-deployment-anti-patterns/) | Hynek Schlawack |  |
 
 ## The Road To Being A Core Dev
 
 | To Read | Author | Notes |
 |-|-|-|
-| [My Road To The Python Commit Bit](Https://Hynek.Me/Articles/My-Road-To-The-Python-Commit-Bit/) | Hynek Schlawack |  |
+| [My Road To The Python Commit Bit](https://hynek.me/articles/my-road-to-the-python-commit-bit/) | Hynek Schlawack |  |
 
 ## How Mega Corps Use Python
 
 | To Read | Author | Notes |
 |-|-|-|
-| [Python At Netflix](Https://Netflixtechblog.Com/Python-At-Netflix-Bba45Dae649E) | Pythonistas At Netflix |  |
-| [Static Analysis At Scale: An Instagram Story](Https://Instagram-Engineering.Com/Static-Analysis-At-Scale-An-Instagram-Story-8F498Ab71A0Ce) | Benjamin Woodruff |  |
+| [Python At Netflix](https://netflixtechblog.com/python-at-netflix-bba45dae649e) | Pythonistas At Netflix |  |
+| [Static Analysis At Scale: An Instagram Story](https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0ce) | Benjamin Woodruff |  |
 
 ## History And Decisions
 
 | To Read | Author | Notes |
 |-|-|-|
-| [The Origins Of Pgen](Https://Python-History.Blogspot.Com/2018/05/The-Origins-Of-Pgen.Html) | Guido Van Rossum |  |
-| [The History Of Bool, True And False](Https://Python-History.Blogspot.Com/2013/11/The-History-Of-Bool-True-And-False.Html) | Guido Van Rossum |  |
+| [The Origins Of Pgen](https://python-history.blogspot.com/2018/05/the-origins-of-pgen.html) | Guido Van Rossum |  |
+| [The History Of Bool, True And False](https://python-history.blogspot.com/2013/11/the-history-of-bool-true-and-false.html) | Guido Van Rossum |  |
 | []() | Guido Van Rossum |  |
-| [The Story Of None, True And False (And An Explanation Of Literals, Keywords And Builtins Thrown In)](Https://Python-History.Blogspot.Com/2013/11/Story-Of-None-True-False.Html) | Guido Van Rossum |  |
-| [Origin Of Metaclasses In Python](Https://Python-History.Blogspot.Com/2013/10/Origin-Of-Metaclasses-In-Python.Html) | Guido Van Rossum |  |
-| [Why Python Uses 0-Based Indexing](Https://Python-History.Blogspot.Com/2013/10/Why-Python-Uses-0-Based-Indexing.Html) | Guido Van Rossum |  |
-| [Karin Dewar, Indentation And The Colon](Https://Python-History.Blogspot.Com/2011/07/Karin-Dewar-Indentation-And-Colon.Html) | Guido Van Rossum |  |
-| [Why Python'S Integer Division Floors](Https://Python-History.Blogspot.Com/2010/08/Why-Pythons-Integer-Division-Floors.Html) | Guido Van Rossum |  |
-| [From List Comprehensions To Generator Expressions](Https://Python-History.Blogspot.Com/2010/06/From-List-Comprehensions-To-Generator.Html) | Guido Van Rossum |  |
-| [Method Resolution Order](Https://Python-History.Blogspot.Com/2010/06/Method-Resolution-Order.Html) | Guido Van Rossum |  |
-| [Import Antigravity](Https://Python-History.Blogspot.Com/2010/06/Import-Antigravity.Html) | Guido Van Rossum |  |
-| [The Inside Story On New-Style Classes](Https://Python-History.Blogspot.Com/2010/06/Inside-Story-On-New-Style-Classes.Html) | Guido Van Rossum |  |
-| [New-Style Classes](Https://Python-History.Blogspot.Com/2010/06/New-Style-Classes.Html) | Guido Van Rossum |  |
-| [Metaclasses And Extension Classes (A.K.A. “The Killer Joke”)](Https://Python-History.Blogspot.Com/2009/04/Metaclasses-And-Extension-Classes-Aka.Html) | Guido Van Rossum |  |
-| [And The Snake Attacks](Https://Python-History.Blogspot.Com/2009/04/And-Snake-Attacks.Html) | Greg Erwin |  |
-| [Origins Of Python'S "Functional" Features](Https://Python-History.Blogspot.Com/2009/04/Origins-Of-Pythons-Functional-Features.Html) | Guido Van Rossum |  |
-| [The Great (Or Grand) Renaming](Https://Python-History.Blogspot.Com/2009/03/Great-Or-Grand-Renaming.Html) | Guido Van Rossum |  |
-| [Dynamically Loaded Modules](Https://Python-History.Blogspot.Com/2009/03/Dynamically-Loaded-Modules.Html) | Guido Van Rossum |  |
-| [The Problem With Integer Division](Https://Python-History.Blogspot.Com/2009/03/Problem-With-Integer-Division.Html) | Guido Van Rossum |  |
-| [How Exceptions Came To Be Classes](Https://Python-History.Blogspot.Com/2009/03/How-Exceptions-Came-To-Be-Classes.Html) | Guido Van Rossum |  |
-| [How Everything Became An Executable Statement](Https://Python-History.Blogspot.Com/2009/03/How-Everything-Became-Executable.Html) | Guido Van Rossum |  |
-| [First-Class Everything](Https://Python-History.Blogspot.Com/2009/02/First-Class-Everything.Html) | Guido Van Rossum |  |
-| [Adding Support For User-Defined Classes](Https://Python-History.Blogspot.Com/2009/02/Adding-Support-For-User-Defined-Classes.Html) | Guido Van Rossum |  |
-| [Python'S Use Of Dynamic Typing](Https://Python-History.Blogspot.Com/2009/02/Pythons-Use-Of-Dynamic-Typing.Html) | Guido Van Rossum |  |
-| [Early Language Design And Development](Https://Python-History.Blogspot.Com/2009/02/Early-Language-Design-And-Development.Html) | Guido Van Rossum |  |
-| [Microsoft Ships Python Code... In 1996](Https://Python-History.Blogspot.Com/2009/01/Microsoft-Ships-Python-Code-In-1996.Html) | Greg Erwin |  |
-| [Personal History - Part 2, Cnri And Beyond](Https://Python-History.Blogspot.Com/2009/01/Personal-History-Part-2-Cnri-And-Beyond.Html) | Guido Van Rossum |  |
-| [Personal History - Part 1, Cwi](Https://Python-History.Blogspot.Com/2009/01/Personal-History-Part-1-Cwi.Html) | Guido Van Rossum |  |
-| [A Brief Timeline Of Python](Https://Python-History.Blogspot.Com/2009/01/Brief-Timeline-Of-Python.Html) | Guido Van Rossum |  |
-| [Python'S Design Philosophy](Https://Python-History.Blogspot.Com/2009/01/Pythons-Design-Philosophy.Html) | Guido Van Rossum |  |
+| [The Story Of None, True And False (And An Explanation Of Literals, Keywords And Builtins Thrown In)](https://python-history.blogspot.com/2013/11/story-of-none-true-false.html) | Guido Van Rossum |  |
+| [Origin Of Metaclasses In Python](https://python-history.blogspot.com/2013/10/origin-of-metaclasses-in-python.html) | Guido Van Rossum |  |
+| [Why Python Uses 0-Based Indexing](https://python-history.blogspot.com/2013/10/why-python-uses-0-based-indexing.html) | Guido Van Rossum |  |
+| [Karin Dewar, Indentation And The Colon](https://python-history.blogspot.com/2011/07/karin-dewar-indentation-and-colon.html) | Guido Van Rossum |  |
+| [Why Python'S Integer Division Floors](https://python-history.blogspot.com/2010/08/why-pythons-integer-division-floors.html) | Guido Van Rossum |  |
+| [From List Comprehensions To Generator Expressions](https://python-history.blogspot.com/2010/06/from-list-comprehensions-to-generator.html) | Guido Van Rossum |  |
+| [Method Resolution Order](https://python-history.blogspot.com/2010/06/method-resolution-order.html) | Guido Van Rossum |  |
+| [Import Antigravity](https://python-history.blogspot.com/2010/06/import-antigravity.html) | Guido Van Rossum |  |
+| [The Inside Story On New-Style Classes](https://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html) | Guido Van Rossum |  |
+| [New-Style Classes](https://python-history.blogspot.com/2010/06/new-style-classes.html) | Guido Van Rossum |  |
+| [Metaclasses And Extension Classes (A.K.A. “The Killer Joke”)](https://python-history.blogspot.com/2009/04/metaclasses-and-extension-classes-aka.html) | Guido Van Rossum |  |
+| [And The Snake Attacks](https://python-history.blogspot.com/2009/04/and-snake-attacks.html) | Greg Erwin |  |
+| [Origins Of Python'S "Functional" Features](https://python-history.blogspot.com/2009/04/origins-of-pythons-functional-features.html) | Guido Van Rossum |  |
+| [The Great (Or Grand) Renaming](https://python-history.blogspot.com/2009/03/great-or-grand-renaming.html) | Guido Van Rossum |  |
+| [Dynamically Loaded Modules](https://python-history.blogspot.com/2009/03/dynamically-loaded-modules.html) | Guido Van Rossum |  |
+| [The Problem With Integer Division](https://python-history.blogspot.com/2009/03/problem-with-integer-division.html) | Guido Van Rossum |  |
+| [How Exceptions Came To Be Classes](https://python-history.blogspot.com/2009/03/how-exceptions-came-to-be-classes.html) | Guido Van Rossum |  |
+| [How Everything Became An Executable Statement](https://python-history.blogspot.com/2009/03/how-everything-became-executable.html) | Guido Van Rossum |  |
+| [First-Class Everything](https://python-history.blogspot.com/2009/02/first-class-everything.html) | Guido Van Rossum |  |
+| [Adding Support For User-Defined Classes](https://python-history.blogspot.com/2009/02/adding-support-for-user-defined-classes.html) | Guido Van Rossum |  |
+| [Python'S Use Of Dynamic Typing](https://python-history.blogspot.com/2009/02/pythons-use-of-dynamic-typing.html) | Guido Van Rossum |  |
+| [Early Language Design And Development](https://python-history.blogspot.com/2009/02/early-language-design-and-development.html) | Guido Van Rossum |  |
+| [Microsoft Ships Python Code... In 1996](https://python-history.blogspot.com/2009/01/microsoft-ships-python-code-in-1996.html) | Greg Erwin |  |
+| [Personal History - Part 2, Cnri And Beyond](https://python-history.blogspot.com/2009/01/personal-history-part-2-cnri-and-beyond.html) | Guido Van Rossum |  |
+| [Personal History - Part 1, Cwi](https://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html) | Guido Van Rossum |  |
+| [A Brief Timeline Of Python](https://python-history.blogspot.com/2009/01/brief-timeline-of-python.html) | Guido Van Rossum |  |
+| [Python'S Design Philosophy](https://python-history.blogspot.com/2009/01/pythons-design-philosophy.html) | Guido Van Rossum |  |

@@ -877,6 +877,7 @@ Though not necessarily read one after the other, the order is nevertheless not r
 For example, knowledge of CPython internals specially bytecodes are necessary to make sense of B. Cannon's 
 unravelling series. 
 The articles are focused on core Python and it's as advanced as articles can get.
+You can send pull requests [here](https://github.com/Abdur-rahmaanJ/python-engineering-articles)
 ''')
 for topic in data:
     print(f'\n## {topic}')

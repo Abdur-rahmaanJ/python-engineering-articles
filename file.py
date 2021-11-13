@@ -659,6 +659,15 @@ data = {
             ''
         ],
     ],
+    'Command Line':
+    [
+        [
+            "How APT does its fancy progress bar",
+            'https://mdk.fr/blog/how-apt-does-its-fancy-progress-bar.html',
+            'Julien Palard',
+            ''
+        ],
+    ],
     'The Road To Being A Core Dev':
     [
         [

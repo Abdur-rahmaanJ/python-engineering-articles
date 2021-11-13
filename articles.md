@@ -191,6 +191,12 @@ You can send pull requests [here](https://github.com/Abdur-rahmaanJ/python-engin
 | [The History Behind The Decision To Move Python To Github](https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/) | Brett Cannon |  |
 | [Python Deployment Anti-Patterns](https://hynek.me/articles/python-deployment-anti-patterns/) | Hynek Schlawack |  |
 
+## Command Line
+
+| To Read | Author | Notes |
+|-|-|-|
+| [How Apt Does Its Fancy Progress Bar](https://mdk.fr/blog/how-apt-does-its-fancy-progress-bar.html) | Julien Palard |  |
+
 ## The Road To Being A Core Dev
 
 | To Read | Author | Notes |

@@ -772,7 +772,7 @@ data = {
         [
             "And the Snake Attacks",
             'https://python-history.blogspot.com/2009/04/and-snake-attacks.html',
-            'Greg Erwin',
+            'Greg Ewing',
             '',
         ],
         [
@@ -838,7 +838,7 @@ data = {
         [
             "Microsoft Ships Python Code... in 1996",
             'https://python-history.blogspot.com/2009/01/microsoft-ships-python-code-in-1996.html',
-            'Greg Erwin',
+            'Greg Ewing',
             '',
         ],
         [
